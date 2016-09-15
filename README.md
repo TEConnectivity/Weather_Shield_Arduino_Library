@@ -1,5 +1,6 @@
 # Weather Shield Arduino Library
 Arduino library for the TE Connectivity Weather Shield
+![weathershield](https://cloud.githubusercontent.com/assets/20226823/18556182/eccb7266-7b6a-11e6-9b7b-f04607d9ba6b.jpg)
 
 This library provides easy access to all the sensors featured by the TE Connectivity Weather Shield :
 * [HTU21D](http://www.te.com/usa-en/product-CAT-HSC0004.html) (Temperature and Humidity)
