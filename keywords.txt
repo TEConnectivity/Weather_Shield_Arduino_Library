@@ -1,0 +1,39 @@
+#######################################
+# Syntax Coloring Map For Weather Shield
+#######################################
+
+#######################################
+# Class (KEYWORD1)
+#######################################
+
+TEWeatherShield			KEYWORD1	TEWeatherShield
+TEWeatherShield_Sensor	KEYWORD1	TEWeatherShield
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+
+TEWeatherShield	KEYWORD2
+selectSensor	KEYWORD2
+selectHTU21D	KEYWORD2
+selectMS5637	KEYWORD2
+selectMS8607	KEYWORD2
+selectTSYS01	KEYWORD2
+selectTSD305	KEYWORD2
+
+#######################################
+# Constants (LITERAL1)
+#######################################
+
+Sensor_HTU21D	LITERAL1
+Sensor_MS5637	LITERAL1	
+Sensor_MS8607	LITERAL1
+Sensor_TSYS01	LITERAL1
+Sensor_TSD305	LITERAL1
+Sensor_NONE		LITERAL1	
+
+HTU21D		LITERAL1
+MS5637		LITERAL1
+MS8607		LITERAL1
+TSYS01		LITERAL1
+TSD305		LITERAL1
