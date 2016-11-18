@@ -8,7 +8,7 @@ This library provides easy access to all the sensors featured by the TE Connecti
 * [MS5637](http://www.te.com/usa-en/product-CAT-BLPS0037.html) (Temperature and Pressure)
 * [MS8607](http://www.te.com/usa-en/product-CAT-BLPS0018.html) (Temperature, Humidity and Pressure)
 * [TSYS01](http://www.te.com/usa-en/product-G-NICO-018.html) (Temperature)
-* [TSD305]() (Temperature and Contactless Temperature)
+* [TSD305](http://www.te.com/usa-en/product-G-TPMO-101.html) (Temperature and Contactless Temperature)
  
 In order to work properly, all sensors libraries have to installed manually prior to using this library : 
 * [TE Connectivity HTU21D Arduino Library](https://github.com/TEConnectivity/HTU21D_Arduino_Library)
