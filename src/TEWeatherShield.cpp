@@ -1,6 +1,16 @@
 #include "TEWeatherShield.h"
 
-TEWeatherShield::TEWeatherShield(void) { selectSensor(Sensor_NONE); }
+TEWeatherShield::TEWeatherShield(void) {}
+
+void TEWeatherShield::begin(void) {
+  selectSensor(Sensor_NONE);
+
+  HTU21D.begin();
+  MS5637.begin();
+  MS8607.begin();
+  TSYS01.begin();
+  TSD305.begin();
+}
 
 void TEWeatherShield::selectSensor(enum TEWeatherShield_Sensor sensor) {
   pinMode(9, OUTPUT);
@@ -12,31 +22,31 @@ void TEWeatherShield::selectSensor(enum TEWeatherShield_Sensor sensor) {
     digitalWrite(9, LOW);
     digitalWrite(10, LOW);
     digitalWrite(11, LOW);
-    delay(10);
+    delay(5);
     break;
   case Sensor_MS5637:
     digitalWrite(9, LOW);
     digitalWrite(10, LOW);
     digitalWrite(11, LOW);
-    delay(10);
+    delay(5);
     break;
   case Sensor_MS8607:
     digitalWrite(9, LOW);
     digitalWrite(10, LOW);
     digitalWrite(11, HIGH);
-    delay(10);
+    delay(5);
     break;
   case Sensor_TSYS01:
     digitalWrite(9, LOW);
     digitalWrite(10, HIGH);
     digitalWrite(11, LOW);
-    delay(10);
+    delay(5);
     break;
   case Sensor_TSD305:
     digitalWrite(9, LOW);
     digitalWrite(10, HIGH);
     digitalWrite(11, HIGH);
-    delay(10);
+    delay(5);
     break;
   case Sensor_NONE:
     digitalWrite(9, HIGH);

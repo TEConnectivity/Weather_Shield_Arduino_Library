@@ -29,6 +29,7 @@ public:
 
   TEWeatherShield();
 
+  void begin();
   void selectSensor(enum TEWeatherShield_Sensor sensor);
   void selectHTU21D();
   void selectMS5637();

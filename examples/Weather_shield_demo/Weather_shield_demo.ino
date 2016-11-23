@@ -7,6 +7,8 @@ void setup() {
   Serial.println("TE Connectivity Sensor Solutions");
   Serial.println("==== Arduino Weather Shield ===="); 
   Serial.println();
+
+  weatherShield.begin();
 }
 
 void measure_htu21d() {
