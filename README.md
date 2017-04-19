@@ -1,4 +1,4 @@
-# Weather Shield Arduino Library [![Analytics](https://ga-beacon.appspot.com/UA-97622785-1/README?flat)](https://github.com/igrigorik/ga-beacon)
+# Weather Shield Arduino Library [![License: MIT](https://img.shields.io/badge/License-MIT-brightgreen.svg)](https://opensource.org/licenses/MIT) [![Analytics](https://ga-beacon.appspot.com/UA-97622785-1/README?flat)](https://github.com/igrigorik/ga-beacon)
 Arduino library for the TE Connectivity Weather Shield
 
 ![weathershield](https://cloud.githubusercontent.com/assets/20226823/18585927/3a23b69a-7c1a-11e6-857b-6aa3a8e6d244.jpg)
