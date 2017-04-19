@@ -1,3 +1,5 @@
+[![Analytics](https://ga-beacon.appspot.com/UA-97622785-1/README)](https://github.com/igrigorik/ga-beacon)
+
 # Weather Shield Arduino Library
 Arduino library for the TE Connectivity Weather Shield
 
