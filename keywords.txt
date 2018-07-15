@@ -6,7 +6,7 @@
 # Class (KEYWORD1)
 #######################################
 
-TEWeatherShield			KEYWORD1	TEWeatherShield
+TEWeatherShield	KEYWORD1	TEWeatherShield
 TEWeatherShield_Sensor	KEYWORD1	TEWeatherShield
 
 #######################################
@@ -26,14 +26,14 @@ selectTSD305	KEYWORD2
 #######################################
 
 Sensor_HTU21D	LITERAL1
-Sensor_MS5637	LITERAL1	
+Sensor_MS5637	LITERAL1
 Sensor_MS8607	LITERAL1
 Sensor_TSYS01	LITERAL1
 Sensor_TSD305	LITERAL1
-Sensor_NONE		LITERAL1	
+Sensor_NONE	LITERAL1
 
-HTU21D		LITERAL1
-MS5637		LITERAL1
-MS8607		LITERAL1
-TSYS01		LITERAL1
-TSD305		LITERAL1
+HTU21D	LITERAL1
+MS5637	LITERAL1
+MS8607	LITERAL1
+TSYS01	LITERAL1
+TSD305	LITERAL1
