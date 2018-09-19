@@ -6,8 +6,8 @@
 # Class (KEYWORD1)
 #######################################
 
-TEWeatherShield	KEYWORD1	TEWeatherShield
-TEWeatherShield_Sensor	KEYWORD1	TEWeatherShield
+TEWeatherShield	KEYWORD1
+TEWeatherShield_Sensor	KEYWORD1
 
 #######################################
 # Methods and Functions (KEYWORD2)
